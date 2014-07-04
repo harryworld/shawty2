@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   get 'privacy'   => 'site#privacy'
   get 'terms'     => 'site#terms'
+
+  post 'url'      => 'url#create'
 end
